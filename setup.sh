@@ -1,18 +1,13 @@
-# R
-apt-get install libxml2-dev libssl-dev libcurl4-openssl-dev gfortran build-essential
-echo "deb https:cran.itam.mx/bin/linux/ubuntu xenial/">>/etc/apt/sources.list
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
-apt-get install r-base
-apt-get install texlive-latex-recommended texlive-xetex
-apt-get install lmodern
-Rscript setup.R
-# git
-apt-get install git
-# python
-sudo apt install spyder3 -y
-sudo apt install python3-pip -y
-sudo apt install python3-dev -y
-yes|sudo -H pip3 install setuptools
-yes|sudo -H pip3 install -U spyder
-yes|sudo -H pip3 install tensorflow
+# adding repos
+sudo add-apt-repository ppa:apandada1/xournalpp-stable
 
+# external files
+wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh | sudo bash
+
+# installing
+sudo apt update
+
+sudo apt install emacs vim inkscape okular zotero xournalpp nvidia-driver-460 nvidia-utils-460
+
+cp vimrc ~/.vimrc
+cp emacs ~/.emacs
