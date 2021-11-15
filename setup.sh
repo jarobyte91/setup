@@ -8,6 +8,11 @@ wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/ins
 sudo apt update
 sudo apt install zotero
 
+# R
+sudo apt update
+sudo apt install r-base
+sudo apt install r-cran-tidyverse
+
 # general
 sudo apt update
 sudo apt install emacs 
