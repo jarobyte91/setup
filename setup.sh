@@ -1,4 +1,4 @@
-# adding repos
+# xournal
 # sudo add-apt-repository ppa:apandada1/xournalpp-stable
 # sudo apt update
 # sudo apt install xournalpp 
@@ -12,6 +12,7 @@ sudo apt install zotero
 sudo apt update
 sudo apt install r-base
 sudo apt install r-cran-tidyverse
+# visit https://github.com/IRkernel/IRkernel to install R into Jupyter
 
 # general
 sudo apt update
