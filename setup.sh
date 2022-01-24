@@ -22,5 +22,9 @@ sudo apt install inkscape -y
 sudo apt install okular -y
 sudo apt install gimp -y
 
+# customization files
 cp vimrc ~/.vimrc
 cp emacs ~/.emacs
+
+# minimize by clicking on the dock
+sudo gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
