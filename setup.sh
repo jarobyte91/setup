@@ -1,7 +1,7 @@
 # xournal
-# sudo add-apt-repository ppa:apandada1/xournalpp-stable
-# sudo apt update
-# sudo apt install xournalpp 
+sudo add-apt-repository ppa:apandada1/xournalpp-stable
+sudo apt update
+sudo apt install xournalpp -y
 
 # zotero
 wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh | sudo bash
