@@ -10,6 +10,7 @@ colo industry
 set title
 set laststatus=2
 set nowrap
+set ignorecase
 
 " page up and page down scrolling
 noremap , ^Fzz
