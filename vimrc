@@ -13,14 +13,14 @@ set nowrap
 set ignorecase
 
 " page up and page down scrolling
-noremap , ^Fzz
-noremap . ^Bzz
+" noremap , ^Fzz
+" noremap . ^Bzz
 
 " matching parenthesis
-inoremap ( ()<Esc>i
-inoremap { {}<Esc>i
-inoremap {<CR> {<CR>}<Esc>O
-inoremap [ []<Esc>i
-inoremap < <><Esc>i
-inoremap ' ''<Esc>i
-inoremap " ""<Esc>i
+" inoremap ( ()<Esc>i
+" inoremap { {}<Esc>i
+" inoremap {<CR> {<CR>}<Esc>O
+" inoremap [ []<Esc>i
+" inoremap < <><Esc>i
+" inoremap ' ''<Esc>i
+" inoremap " ""<Esc>i
