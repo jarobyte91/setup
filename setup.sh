@@ -27,4 +27,4 @@ cp vimrc ~/.vimrc
 cp emacs ~/.emacs
 
 # minimize by clicking on the dock
-sudo gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-overview'
+# sudo gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-overview'
