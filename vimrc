@@ -6,7 +6,8 @@ set autoindent
 set expandtab
 set shiftwidth=4
 set softtabstop=4
-colo industry
+colo ron
+" colo torte
 set title
 set laststatus=2
 set nowrap
