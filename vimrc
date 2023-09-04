@@ -1,5 +1,6 @@
 " general
 set nocompatible
+syntax on
 set hlsearch
 set nu
 set autoindent
